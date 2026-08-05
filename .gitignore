@@ -1,0 +1,57 @@
+# Build outputs
+**/bin/
+**/obj/
+**/out/
+
+# Visual Studio temporary files, build results, and user-specific files
+.vs/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.csproj.user
+*.dbmdl
+*.cache
+*.tmp
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# User secrets and local config
+**/secrets.json
+appsettings.Development.json
+*.pfx
+*.key
+*.pem
+*.jks
+*.p12
+*.cer
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Local environment files
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# npm packages and logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Ignore built copies of appsettings and other generated config
+**/bin/**/appsettings.json
+**/obj/**/appsettings.json
+
+# Optional: ignore any local machine-specific launch config
+**/launchSettings.json
