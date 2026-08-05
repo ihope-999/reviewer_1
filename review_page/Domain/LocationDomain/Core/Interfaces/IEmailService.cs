@@ -2,5 +2,10 @@
 {
     public interface IEmailService
     {
+        public Task SendReviewRequestAsync(
+                string toEmail, string toName,
+                string businessName, string reviewUrl,
+                byte[] qrPngBytes);
     }
 }
+
